@@ -19,3 +19,5 @@ server.use(routes);
 
 //  server port
 server.listen(3333);
+
+//  "yarn dev" to start node server
