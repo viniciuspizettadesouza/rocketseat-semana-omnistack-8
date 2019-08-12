@@ -15,10 +15,10 @@
   display: flex;
   flex-direction: column;
 }
-.main.main-container ul li img {
+.main-container ul img {
   max-width: 100%;
 }
-.main.main-container ul li footer {
+.main-container ul li footer {
   flex: 1;
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -26,7 +26,7 @@
   text-align: left;
   border-radius: 0 0 5px 5px;
 }
-.main.main-container ul li footer p {
+.main-container ul li footer p {
   font-size: 14px;
   line-height: 20px;
   color: #999999;
@@ -40,7 +40,7 @@
 }
 .main-container ul li .buttons button {
   height: 50px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
   border: 0;
   border-radius: 4px;
   background: #ffffff;
@@ -49,4 +49,10 @@
 .main-container ul li .buttons button:hover img {
   transform: translateY(-5px);
   transition: all 0.2s;
+}
+.main-container .empty {
+  font-size: 32px;
+  color: #999999;
+  font-weight: bold;
+  margin-top: 300px;
 }
